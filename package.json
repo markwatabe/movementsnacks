@@ -7,6 +7,7 @@
     "canvas": "^1.6.7",
     "color-thief": "^2.2.2",
     "color-thief-standalone": "^1.0.3",
+    "dotenv": "^4.0.0",
     "envvars": "^0.1.0",
     "moment": "^2.18.1",
     "node-vibrant": "^3.0.0-alpha.2",

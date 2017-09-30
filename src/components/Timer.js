@@ -1,6 +1,10 @@
 import React, { Component } from 'react'
 
 import displayTime from '../lib/displayTime'
+console.log('rEEE', React)
+console.log("PROCESS", process.env.NODE_ENV)
+console.log('does this work??', process.env.REACT_APP_SECRET_CODE);
+
 
 export default class Timer extends Component {
 
@@ -24,6 +28,7 @@ export default class Timer extends Component {
           borderTop:  this.state._interval ? 0 : '1px solid #ccc'
         }}
       >
+
       <div style={{ display: 'flex', height: '100%'}}>
         {
           !this.state._interval && <button style={{width: 100}} onClick={

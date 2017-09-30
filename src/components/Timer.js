@@ -1,9 +1,6 @@
 import React, { Component } from 'react'
 
 import displayTime from '../lib/displayTime'
-console.log('rEEE', React)
-console.log("PROCESS", process.env.NODE_ENV)
-console.log('does this work??', process.env.REACT_APP_SECRET_CODE);
 
 
 export default class Timer extends Component {
